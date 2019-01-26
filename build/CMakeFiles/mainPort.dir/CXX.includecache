@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/port.h
+string.h
+-
+iostream
+-
+
+../include/vintage_port.h
+
+/home/mchornous/Training/C++GLBasecamp/HomeWork/Dubovyk/05/src/mainPort.cpp
+port.h
+/home/mchornous/Training/C++GLBasecamp/HomeWork/Dubovyk/05/src/port.h
+vintage_port.h
+/home/mchornous/Training/C++GLBasecamp/HomeWork/Dubovyk/05/src/vintage_port.h
+iostream
+-
+
+/home/mchornous/Training/C++GLBasecamp/HomeWork/Dubovyk/05/src/port.cpp
+string.h
+-
+port.h
+/home/mchornous/Training/C++GLBasecamp/HomeWork/Dubovyk/05/src/port.h
+
+/home/mchornous/Training/C++GLBasecamp/HomeWork/Dubovyk/05/src/vintage_port.cpp
+port.h
+/home/mchornous/Training/C++GLBasecamp/HomeWork/Dubovyk/05/src/port.h
+vintage_port.h
+/home/mchornous/Training/C++GLBasecamp/HomeWork/Dubovyk/05/src/vintage_port.h
+string.h
+-
+

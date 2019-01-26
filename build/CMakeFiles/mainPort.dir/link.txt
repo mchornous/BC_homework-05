@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -Wextra -Wpedantic -Wshadow -Wundef -Wno-missing-field-initializers   CMakeFiles/mainPort.dir/src/vintage_port.cpp.o CMakeFiles/mainPort.dir/src/port.cpp.o CMakeFiles/mainPort.dir/src/mainPort.cpp.o  -o mainPort -rdynamic 
